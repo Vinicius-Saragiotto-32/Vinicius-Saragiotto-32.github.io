@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap') 
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap')
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(70deg, #22498b 19%, #2f5c6b 81% ) ;
+}
+.qcab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:  20px;
+    margin-bottom: 20px;
+}
+.qtitulo {
+    display: flex; gap: 50px; font-family: "Bakbak One", sans-serif;
+    font-weight: 400;font-style: normal;font-size: 64px;
+    color:rgb(238, 194, 136);
+    flex-direction: row; align-items: center; justify-content: space-around;
+}
+.qsubttl {
+    display: flex; gap: 50px; font-family: "Bakbak One", sans-serif;
+    font-weight: 400;font-style: normal;font-size: 48px;
+    color:rgb(238, 194, 136);
+    flex-direction: row; align-items: center; justify-content: space-around;
+}
+.qserie {
+    font-family: "Grandstander", cursive; color:antiquewhite; font-weight: 400;
+    font-size: 25px; display: flex; flex-direction: row; align-items: center; justify-content: space-around; margin-bottom: 65px;
+}
+.qlink {
+    font-family: "Grandstander", cursive; color:antiquewhite; font-weight: 400;
+    font-size: 25px; display: flex; flex-direction: row; align-items: center; justify-content: space-around; margin-bottom: 50px;
+}
